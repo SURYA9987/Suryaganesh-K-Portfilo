@@ -631,3 +631,127 @@ form btn2 {
 }
 
 
+/* --- Universal adjustments --- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove left margins/paddings causing the main gaps */
+.container,
+#about,
+.services-list,
+.main-content,
+.social-part,
+.sub-title {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* About and project rows: no side space */
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.services-list {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  width: 100% !important;
+}
+
+/* For social-part icons */
+.social-part {
+  margin-left: 0 !important;
+}
+
+/* For header and copyright */
+#header,
+.copyright {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Make sections, images, and grids full width */
+img, .about-col-1 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#about, #project, #contact, #portfolio {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+@media (max-width: 600px) {
+  /* Stack everything, remove any remaining side space */
+  .container,
+  #about,
+  .services-list,
+  .row,
+  .main-content,
+  .copyright {
+    margin: 0 !important;
+    padding: 0 5px !important;
+    width: 100% !important;
+  }
+  .row {
+    flex-direction: column !important;
+    gap: 0 !important;
+  }
+  .about-col-1,
+  .about-col-2,
+  .contact-left,
+  .contact-right {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .sub-title {
+    margin-left: 0 !important;
+    font-size: 32px;
+  }
+  .tab-title {
+    margin: 16px 0 !important;
+  }
+  .services-list > div {
+    width: 100% !important;
+    padding: 16px 5px !important;
+    margin: 10px 0 !important;
+  }
+  .btn, .btn2 {
+    width: 100% !important;
+    margin: 8px 0 !important;
+  }
+  input, textarea, form {
+    width: 100% !important;
+  }
+}
+/* Responsive side margins for all content */
+.container, 
+#about, 
+#project, 
+#portfolio, 
+#contact, 
+.copyright {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+@media (max-width: 600px) {
+  .container, 
+  #about, 
+  #project, 
+  #portfolio, 
+  #contact, 
+  .copyright {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
