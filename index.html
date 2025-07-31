@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suryaganesh_K Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ac57299356.js" crossorigin="anonymous"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+        #form-message {
+          display: block;
+          margin: 1em 0 0 0;
+          color: #16a085;
+          font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Suryaganesh Logo.png" alt="Suryaganesh Logo" class="logo" style="width: 140px; height: auto;">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span class="glow">Suryaganesh</span></h1>
+            <div id="hero-subtext" class="hero-subtext-typing text-base md:text-lg text-gray-400">
+                <span id="typing-text"></span>
+                <span class="cursor"></span>
+            </div>
+        </div>
+
+</div>
+
+    </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Surya_Full pic.png" alt="Suryaganesh Full Photo">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a passionate and adaptable individual with a strong background in IoT and machine learning, backed by hands-on experience through multiple projects and internships. My technical skill set includes proficiency in programming languages, web technologies, and deep learning, paired with solid soft skills like problem-solving, clear communication, and effective troubleshooting.
+                Additionally, I am especially interested in Python programming. I actively seek opportunities to deepen my expertise in Python, using it for data analysis, automation, and machine learning tasks. My enthusiasm for Python comes from its versatility and the powerful libraries it offers, which make it my preferred language for both professional and personal projects.</p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="openTab('skills',event)">Skills</p>
+                    <p class="tab-links" onclick="openTab('Experience',event)">Experience</p>
+                    <p class="tab-links" onclick="openTab('Education',event)">Education</p>
+                    <p class="tab-links" onclick="openTab('Certification',event)">Certification</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <h2 class="skills-title">Skills</h2>
+                        <div class="skills-container">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">MYSQL+</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Deep learning</span>
+                            <span class="skill-tag">Arudino IDE</span>
+                        </div>
+                        <br>
+                        <h2 class="skills-title">Web Development</h2>
+                        <div class="skills-container">
+                            <span class="skill-tag">Web technologies</span>
+                        </div>
+                        <br>
+                        <h2 class="skills-title">Industry</h2>
+                        <div class="skills-container">
+                            <span class="skill-tag">Industrial IoT</span>
+                        </div>
+                        <br>
+                        <h2 class="skills-title">Soft Skills</h2>
+                        <div class="skills-container">
+                            <span class="skill-tag">Problem-solving</span>
+                            <span class="skill-tag">Technical troubleshooting</span>
+                            <span class="skill-tag">Effective Communication</span>
+                        </div>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Internship at IIT-Guwahati</span><br> Computer Vision-Based Object Detection Using Underwater Dataset</li>
+                        <p>Collected ”Underwater Dataset” with four classes (Artifacts, Shark, Turtle, Pipe), each containing 500 images.
+                        Completed annotation using LabelImg (an open-source annotation tool). Implemented YOLOv9 for underwater
+                        object detection.</p>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Shanmuga Arts Science Technology and Research Academy(SASTRA)2025</span><br>B.Tech Computer Science and Engineering (GPA: 7.26 / 10.00)</li>
+                        <li><span>Kalyana Sundaram Higher Secondary School 2021</span><br>HSC-CLASS 12 (Percentage : 77.9)</li>
+                        <li><span>Ponnaiyah Ramajayam Public School 2019</span><br> SSLC-CLASS 10 (Percentage : 68)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certification">
+                    <div class="skills-container">
+                        <a href="Suryaganesh_K_Internship of IIt-G.pdf" class="skill-tag" target="_blank">
+                            Internship at IIT-Guwahati
+                        </a>
+                        <a href="certificate of iot sastra.pdf" class="skill-tag" target="_blank">
+                            Industrial IoT Workshop (MHI, SASTRA)
+                        </a>
+                        <a href="udemy python.pdf" class="skill-tag" target="_blank">
+                            Python Course
+                        </a>
+                        <a href="sastra_hands on ethical.pdf" class="skill-tag" target="_blank">
+                            Hands-on Ethical Hacking
+                        </a>
+                        <a href="Prodigy_Certificate.pdf" class="skill-tag" target="_blank">
+                            Machine learning
+                        </a>
+                        </div>
+                </div>       
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------Projects---------- -->
+<div class="project" id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <!-- Project 1 -->
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Machine Learning-based Technician Recommendation <br>System Based on Skill Rating and Location with KNN</h2>
+                <p class="short-text">Recommended nearby technicians using mobile live location and KNN algorithm...</p>
+                <ul class="full-text" style="display: none;">
+                    <li>To recommend a technician based on customer location using mobile live location.</li>
+                    <li>Developed a system using the RandomForest and KNN algorithms.</li>
+                    <li>Implemented the system using Django to create a website where customers can find nearby technicians.</li>
+                </ul>
+                <a href="#" class="toggle-link" onclick="toggleText(event)">Load more</a>
+            </div>
+            <!-- Project 2 -->
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Helmet Violation Detection using Vision Transformer (ViT)</h2>
+                <p class="short-text">Developed a ViT-based pipeline for helmet violation detection and license plate recognition...</p>
+                <p class="full-text" style="display: none;">
+                    Developed a deep learning pipeline using Vision Transformer (ViT) for real-time helmet violation detection in
+                    surveillance videos, custom YOLO-labeled dataset. The system classifies Helmet, Non-Helmet, Bike, and License
+                    Plate, extracts video frames, detects violations, and uses EasyOCR for license plate recognition. Integrated Twilio
+                    API to send automated fine messages by matching plates with mock contact data. Visualized training metrics and
+                    evaluation results including confusion matrix, precision, recall, and F1-score.
+                </p>
+                <a href="#" class="toggle-link" onclick="toggleText(event)">Load more</a>
+            </div>
+            <!-- Project 3 -->
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Internship at IIT-G: Computer Vision-Based Object Detection <br>Using Underwater Dataset</h2>
+                <p class="short-text">Collected an underwater dataset with 4 classes and implemented YOLOv9 for object detection...</p>
+                <p class="full-text" style="display: none;">
+                    Collected ”Underwater Dataset” with four classes (Artifacts, Shark, Turtle, Pipe), each containing 500 images.
+                    Completed annotation using LabelImg (an open-source annotation tool). Implemented YOLOv9 for underwater
+                    object detection.
+                </p>
+                <a href="#" class="toggle-link" onclick="toggleText(event)">Load more</a>
+            </div>
+            <!-- Project 4 -->
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Real Time Soil Monitoring System using TRB145</h2>
+                <p class="short-text">Developed a real-time system using TRB145 LTE router and multiple sensors for soil monitoring...</p>
+                <p class="full-text" style="display: none;">
+                    Developed a real-time environmental data collection system using the TRB145 industrial LTE router as the
+                    communication backbone. The system integrated a range of sensors, including three-pin, five-pin, temperature, and
+                    leaf sensors, all working under a Solid Monitoring Model. This setup enabled continuous monitoring and analysis of
+                    environmental conditions. The project focused on implementing key IoT concepts, multi-sensor fusion, and reliable
+                    data transmission for actionable insights, highlighting my skills in IoT systems design and real-time data integration.
+                </p>
+                <a href="#" class="toggle-link" onclick="toggleText(event)">Load more</a>
+            </div>
+            <!-- Project 5 -->
+            <div>
+                <i class="fa-solid fa-wifi"></i>
+                <h2>ECGSensor Enabled Heart Rate Monitoring System for Hospitalized Patients</h2>
+                <p class="short-text">Developed a system using an ECG sensor to measure the heart rate of patients in real-time...</p>
+                <p class="full-text" style="display: none;">
+                    Developed a system using an ECG sensor to measure the heart rate of patients in real-time, providing clinicians with
+                    accurate and timely data to make informed decisions. This system helps identify potential heart abnormalities and
+                    enables early intervention, improving patient outcomes and reducing the risk of complications.
+                </p>
+                <a href="#" class="toggle-link" onclick="toggleText(event)">Load more</a>
+            </div>
+            <!-- Project 6 -->
+            <div>
+                <i class="fa-solid fa-wifi"></i>
+                <h2>IoT Fall Detection System for Older Adults and Hospitalized Patients</h2>
+                <p class="short-text">Developed a wearable device using IoT and machine learning to detect falls in real-time...</p>
+                <p class="full-text" style="display: none;">
+                    Developed a wearable device or sensor-enabled system using machine learning algorithms and IoT connectivity to
+                    detect falls in real-time. The system sends alerts to caregivers or healthcare professionals, providing timely
+                    assistance and preventing serious injuries. This system improves the safety and independence of older adults and
+                    hospitalized patients.
+                </p>
+                <a href="#" class="toggle-link" onclick="toggleText(event)">Load more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------Portfolio---------- -->
+<div class="portfolio" id="portfolio">
+    <div class="container">
+        <!-- Portfolio content goes here -->
+    </div>
+</div>
+
+<!-- ---------Contact---------- -->
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <div class="social-part">
+                <p><i class="fa-solid fa-paper-plane"></i> kannansurya396@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 7339511092</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/suryaganesh396/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SURYA9987"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="SURYAGANESH.K.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <br>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="form-message"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Surya. Made with <i class="fa-solid fa-heart-pulse"></i> by Suryaganesh</p>
+    </div>
+</div>
+
+<!-- script for the About Me part-->
+<script>
+function openTab(tabname, event){
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<!-- script for the My project area -->
+<script>
+function toggleText(event) {
+    event.preventDefault();
+    const link = event.currentTarget;
+    const projectCard = link.parentElement;
+    const shortText = projectCard.querySelector('.short-text');
+    const fullText = projectCard.querySelector('.full-text');
+    if (fullText.style.display === 'none' || fullText.style.display === '') {
+        fullText.style.display = 'block';
+        shortText.style.display = 'none';
+        link.textContent = 'Show less';
+    } else {
+        fullText.style.display = 'none';
+        shortText.style.display = 'block';
+        link.textContent = 'Load more';
+    }
+}
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const texts = ["Hi guys, welcome to my portfolio!","Software Developer", "UI Designer", "AI Enthusiast","Always learning new technologies."];
+    let textIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typingElement = document.getElementById("typing-text");
+
+    function typeEffect() {
+        const currentText = texts[textIndex];
+        
+        if (!isDeleting && charIndex < currentText.length) {
+            typingElement.textContent += currentText.charAt(charIndex);
+            charIndex++;
+            setTimeout(typeEffect, 100);
+        } else if (isDeleting && charIndex > 0) {
+            typingElement.textContent = currentText.substring(0, charIndex - 1);
+            charIndex--;
+            setTimeout(typeEffect, 50);
+        } else {
+            isDeleting = !isDeleting;
+            if (!isDeleting) {
+                textIndex = (textIndex + 1) % texts.length; // Loop through texts
+            }
+            setTimeout(typeEffect, isDeleting ? 1000 : 500);
+        }
+    }
+
+    typeEffect();
+});
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyqIy5Zl38zlx93dKEdkEPTJx5x_dFpV4q1KLgctkD6Lpnb1jWJmRAnYlrsI2w2XyE6vQ/exec'
+  const form = document.forms['submit-to-google-sheet'];
+  const msg = document.getElementById('form-message');
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.textContent = "Message sent successfully!";
+        form.reset();
+        setTimeout(() => { msg.textContent=''; }, 4000);
+      })
+      .catch(error => {
+        msg.textContent = "Error sending message.";
+        setTimeout(() => { msg.textContent=''; }, 4000);
+      })
+  })
+</script>
+
+</body>
+</html>
